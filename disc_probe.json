@@ -1,0 +1,30 @@
+{
+  "cue_name": "disc1.cue",
+  "bin_name": "disc1.bin",
+  "track_count": 1,
+  "data_track_size": 104315904,
+  "data_track_md5": "37d9e1179a32661800e74858009a4f8b",
+  "data_track_sha1": "f1ea9a0ae2115f476bd4767b1ac0ba9d0b5ac972",
+  "data_track_crc32": "34100b04",
+  "boot_exe": "SLUS_012.12",
+  "serial": "SLUS-01212",
+  "serial_exe": "SLUS_012.12",
+  "volume_id": "METALSLUGX",
+  "display_name": "Metal Slug X",
+  "load_address": "0x80010000",
+  "entry_pc": "0x80082A44",
+  "text_size": "0x00097800",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "8b9309c8383a4ed1412362b48959f87407aa96b4aff92ad99242b9ad7340b96e",
+  "boot_exe_sha256": "0c36eb1775c844e991fe136d6e1a66dad8d79eeda4be1bdd577715fc35af98e0",
+  "seed_count": 1640,
+  "warnings": [
+    "cue has only 1 TRACK \u2014 Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
